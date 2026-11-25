@@ -1,0 +1,60 @@
+
+    @font-face {
+        font-family: PlexSans;
+        src: url(IBMPlexSans-Regular.woff2);
+    }
+    
+    * {
+        font-family: PlexSans;
+    }
+    :root {
+        font-size: 125%;
+        --dark: #232528;
+        --light: #DFD7C8;
+    }
+
+    #modes {
+        align-content: center;
+        text-align: center;
+    }
+
+    button {
+        background-color: var(--light);
+        border-style: none;
+        color: var(--dark);
+        margin-inline: auto;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        color: var(--light);
+    }
+
+    h1,h2 {
+        text-align: center;
+    }
+
+    body {
+        background-color: var(--dark);
+    }
+    
+    li.category {
+        font-weight: bold;
+    }
+
+    li.category * *{
+        font-weight: normal
+    }
+    section {
+        max-width: 720px;
+        width: 95%;
+        margin: auto;
+        padding: 16px 16px;
+        outline: solid;
+        outline-width: 1px;
+        min-height: 95vh;
+        
+    }
